@@ -1,10 +1,7 @@
 import requests
-import dash
 import pandas as pd
-import json
 from config import API_KEY # Assuming config.py contains your API key and other configurations
 import logging
-import os
 from pprint import pprint
 
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s', filename='msba_app.log', filemode='w')
@@ -41,6 +38,6 @@ df = create_dataframe(json_data)
 
 if not df.empty:
     print(df.head())
-    
+
 else:
     print("No data retrieved or DataFrame is empty.")

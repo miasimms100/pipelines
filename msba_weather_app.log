@@ -1,0 +1,11 @@
+2025-05-14 22:36:28,935 - DEBUG - Initializing backend: None .cache
+2025-05-14 22:36:28,935 - DEBUG - Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-05-14 22:36:28,941 - DEBUG - Opening connection to C:\Users\miasi\Documents\GitHub\pipelines\.cache.sqlite:responses
+2025-05-14 22:36:28,977 - DEBUG - Initialized SQLiteDict with serializer: None
+2025-05-14 22:36:28,977 - DEBUG - Opening connection to C:\Users\miasi\Documents\GitHub\pipelines\.cache.sqlite:redirects
+2025-05-14 22:36:29,018 - DEBUG - Cache directives from request headers: CacheDirectives()
+2025-05-14 22:36:29,018 - DEBUG - Pre-read cache checks: Passed
+2025-05-14 22:36:29,018 - DEBUG - Post-read cache actions: CacheActions(expire_after=3600, send_request=True)
+2025-05-14 22:36:29,018 - DEBUG - Starting new HTTPS connection (1): api.open-meteo.com:443
+2025-05-14 22:36:29,929 - DEBUG - https://api.open-meteo.com:443 "GET /v1/forecast?latitude=52.52&longitude=13.41&hourly=precipitation_probability&format=flatbuffers HTTP/1.1" 200 None
+2025-05-14 22:36:29,931 - DEBUG - Pre-write cache checks: Passed
