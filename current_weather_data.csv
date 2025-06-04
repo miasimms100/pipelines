@@ -1,0 +1,2 @@
+Time,Latitude,Longitude,CurrentTemp,CurrentWeatherCode,HumidityPercentage,CurrentPrecipitation,isDayTime,CloudCoveragePercentage,WindSpeed,WindDirection
+2025-06-04 05:45:00+00:00,38.26070022583008,-85.758544921875,73.76809692382812,0.0,67.0,0.0,0.0,0.0,6.263599872589111,180.0
